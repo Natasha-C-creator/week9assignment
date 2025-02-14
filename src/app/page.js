@@ -53,15 +53,15 @@ export default function HomePage() {
       <div style={styles.container}>
         <div style={styles.imageWrapper}>
           <div style={styles.imageContainer}>
-          <Link href="/posts">
-            <Image
-              src="/cheesecake.jpg"
-              alt="Vanilla cheesecake with blueberry sauce"
-              width={300}
-              height={300}
-              priority="false"
-            />
-            <Link />
+            <Link href="/posts">
+              <Image
+                src="/cheesecake.jpg"
+                alt="Vanilla cheesecake with blueberry sauce"
+                width={300}
+                height={300}
+                priority="false"
+              />
+            </Link>
             <a style={styles.imageText}>
               Recipe for the best cheesecake you will ever taste
             </a>
