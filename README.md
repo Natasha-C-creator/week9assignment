@@ -6,7 +6,6 @@ TRELLO:
 
 GITHUB:
 VERCEL:
-
 SUPABASE SCHEMA:
 
 ---
@@ -25,3 +24,6 @@ SUPABASE SCHEMA:
 ## 🎯 If so, what was it that you found difficult about these tasks?
 
 ----What useful external sources helped you complete the assignment (e.g Youtube tutorials)?
+
+----What went really well and what could have gone better?
+
