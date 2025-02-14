@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.11.3",
+    "@radix-ui/react-popover": "^1.1.6",
     "next": "15.1.6",
     "pg": "^8.13.3",
     "react": "^19.0.0",
