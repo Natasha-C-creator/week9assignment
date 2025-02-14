@@ -1,0 +1,15 @@
+.header {
+  background-color: #f1ebe1;
+  font-size: 3rem;
+  padding: 25px;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: #d0bfa3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  color: #333333;
+}

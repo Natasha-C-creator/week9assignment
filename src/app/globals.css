@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* the :root pseudo-class selects everything in my app */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Soft whites and creams */
+  --background: #f8f6f1;  /* soft cream color for the background */
+  --foreground: #333333;  /* dark gray for text, easier on the eyes than black */
+  --highlight: rgb(181, 124, 18); /* A warm amber for highlights */
+  --font: 'Helvetica Neue', Arial, sans-serif; /* A softer font choice */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2a2a2a; /* dark gray background for dark mode */
+    --foreground: #f5f5f5; /* light gray text in dark mode */
   }
 }
 
 body {
+  /* Applying the variables for background and text colors */
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
 }
