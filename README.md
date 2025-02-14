@@ -3,8 +3,9 @@ Reflection
 WIREFRAME:
 
 TRELLO:
+![Screenshot of Trello planning for week 9 assignment](image.png)
 
-GITHUB:
+GITHUB:https://github.com/Natasha-C-creator/week9assignment
 VERCEL:
 SUPABASE SCHEMA:
 

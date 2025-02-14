@@ -5,9 +5,9 @@ import Navbar from "@/components/Navbar";
 import Header from "@/components/header";
 import PopOver from "@/components/PopOver";
 import Link from "next/link";
-// import cheesecake from "cheesecake.jpg";
-// import mountains from "mountains.jpg";
-// import tapas from "tapas.jpg";
+import cheesecake from "public/cheesecake.jpg";
+import mountains from "public/mountains.jpg";
+import tapas from "public/tapas.jpg";
 
 const styles = {
   container: {
@@ -50,24 +50,26 @@ export default function HomePage() {
       <Navbar />
       <Header />
       <PopOver />
-      {/* <div style={styles.container}>
+      <div style={styles.container}>
         <div style={styles.imageWrapper}>
           <div style={styles.imageContainer}>
-              <Link href={`/posts/${post.id}`}>
-                <a style={styles.imageText}>Recipe for the best cheesecake you will ever taste</a>
-                <Image
-                src="/cheesecake.jpg"
-                alt="Vanilla cheesecake with blueberry sauce"
-                width={300}
-                height={300}
-                priority="false"
-              />
-              </Link>
+          <Link href="/posts">
+            <Image
+              src="/cheesecake.jpg"
+              alt="Vanilla cheesecake with blueberry sauce"
+              width={300}
+              height={300}
+              priority="false"
+            />
+            <Link />
+            <a style={styles.imageText}>
+              Recipe for the best cheesecake you will ever taste
+            </a>
           </div>
           <div style={styles.imageContainer}>
             <Link href="/posts">
               <Image
-                src="mountains.jpg"
+                src="/mountains.jpg"
                 alt="Long straight road surrounded by mountains"
                 width={300}
                 height={300}
@@ -81,17 +83,17 @@ export default function HomePage() {
           <div style={styles.imageContainer}>
             <Link href="/posts">
               <Image
-                src="tapas.jpg"
+                src="/tapas.jpg"
                 alt="Tapas on a table"
                 width={300}
                 height={300}
                 priority="false"
               />
             </Link>
-            <p style={styles.imageText}>Next Stop: San Sebastian for Tapas</p> */}
-      {/* </div>
-        </div> */}
-      {/* </div> */}
+            <p style={styles.imageText}>Next Stop: San Sebastian for Tapas</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

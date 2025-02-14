@@ -4,8 +4,10 @@ export default function PopOver() {
   return (
     <>
       <Popover.Root>
-        <Popover.Trigger>
-          <button>Click me</button>
+        <Popover.Trigger asChild>
+          <button type="button" aria-haspopup="dialog" aria-expanded={false}>
+            Click Me
+          </button>
         </Popover.Trigger>
         <Popover.Anchor />
         <Popover.Portal>
