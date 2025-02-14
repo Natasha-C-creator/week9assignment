@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import Header from "@/components/header";
-import Popover from "@/components/Popover";
+import PopOver from "@/components/PopOver";
 import Link from "next/link";
 // import cheesecake from "cheesecake.jpg";
 // import mountains from "mountains.jpg";
@@ -49,7 +49,7 @@ export default function HomePage() {
       </Head>
       <Navbar />
       <Header />
-      <Popover />
+      <PopOver />
       {/* <div style={styles.container}>
         <div style={styles.imageWrapper}>
           <div style={styles.imageContainer}>
