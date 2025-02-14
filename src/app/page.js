@@ -1,5 +1,4 @@
 //HOMEPAGE
-
 import Image from "next/image";
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
@@ -90,7 +89,7 @@ export default function HomePage() {
               />
             </Link>
             <p style={styles.imageText}>Next Stop: San Sebastian for Tapas</p> */}
-          {/* </div>
+      {/* </div>
         </div> */}
       {/* </div> */}
     </>
