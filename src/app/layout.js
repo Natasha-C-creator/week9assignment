@@ -1,5 +1,5 @@
 import { Roboto_Mono } from "next/font/google";
-import Navbar from "@/components/Navbar";
+// import Navbar from "./components/Navbar";
 import { Metadata } from "next";
 import {
   ClerkProvider,
