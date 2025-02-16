@@ -1,8 +1,6 @@
 //HOMEPAGE
 import Image from "next/image";
 import Head from "next/head";
-import Navbar from "@/components/Navbar";
-import Header from "@/components/header";
 import PopOver from "@/components/PopOver";
 import Link from "next/link";
 import cheesecake from "public/cheesecake.jpg";
@@ -47,8 +45,6 @@ export default function HomePage() {
       <Head>
         <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
-      <Navbar />
-      <Header />
       <PopOver />
       <div style={styles.container}>
         <div style={styles.imageWrapper}>

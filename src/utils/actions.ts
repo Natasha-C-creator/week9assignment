@@ -1,22 +1,33 @@
-// import { auth } from "@clerk/nextjs/server";
+import { auth } from "@clerk/nextjs/server";
+import { useState } from "react";
 
-// export default function AddPost() {
-//   async function addPost(postData: PostData) {
-//     "use server";
+export default function AddPost() {
+  const [postName, setPostName] = useState<string>("");
 
-//     const { userId } = await auth();
+  async function addPost(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
 
-//     if (!userId) {
-//       throw new Error("You must be signed in to post");
-//     }
+    const formData = new FormData(event.target as HTMLFormElement);
+    const name = formData.get("name");
 
-//     console.log("post item server action", postData);
-//   }
+    const { userId } = await auth();
+
+    if (!userId) {
+      throw new Error("You must be signed in to post");
+    }
+
+    console.log("Adding post with name:", name);
+  }
 
 //   return (
-//     <form action={postItem}>
-//       <input value={"test"} type="text" name="name" />
+//     <form onSubmit={addPost}>
+//       <input
+//         value={postName}
+//         onChange={(e) => setPostName(e.target.value)}
+//         type="text"
+//       />
+
 //       <button type="submit">Add Post</button>
 //     </form>
 //   );
-// }
+// 

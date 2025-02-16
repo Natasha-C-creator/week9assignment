@@ -1,13 +1,6 @@
-import Head from "next/head";
-import Navbar from "@/components/Navbar";
-import Header from "@/components/header";
-import pg from "pg";
-
 export default function Posts() {
   return (
     <>
-      <Navbar />
-      <Header />
       <p>Posts</p>
       <div class="mb-4">
         <label

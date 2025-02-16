@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* the :root pseudo-class selects everything in my app */
 :root {
   --background: #94887d;
   --foreground: #333333;
