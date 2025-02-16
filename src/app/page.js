@@ -3,9 +3,6 @@ import Image from "next/image";
 import Head from "next/head";
 import PopOver from "@/components/PopOver";
 import Link from "next/link";
-import cheesecake from "public/cheesecake.jpg";
-import mountains from "public/mountains.jpg";
-import tapas from "public/tapas.jpg";
 
 const styles = {
   container: {
