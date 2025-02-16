@@ -8,9 +8,9 @@ TRELLO:
 
 SUPABASE SCHEMA: !Screenshot of supabase tables](image.png)
 
-GITHUB:https://github.com/Natasha-C-creator/week9assignment
+GITHUB: https://github.com/Natasha-C-creator/week9assignment
 
-VERCEL:
+VERCEL: https://week9assignment-3wvy7zbly-natashas-projects-08246beb.vercel.app/
 
 ---
 

@@ -18,6 +18,7 @@ export default function AddPost() {
 
     console.log("Adding post with name:", name);
   }
+}
 
 //   return (
 //     <form onSubmit={addPost}>
@@ -30,4 +31,4 @@ export default function AddPost() {
 //       <button type="submit">Add Post</button>
 //     </form>
 //   );
-// 
+//
