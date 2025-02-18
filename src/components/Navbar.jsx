@@ -7,6 +7,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import Accessibility from "./Accessibility";
 
 const Navbar = () => {
   return (
@@ -42,6 +43,7 @@ const Navbar = () => {
                     <UserButton />
                   </SignedIn>
                 </ClerkProvider>
+                <Accessibility />
               </li>
             </ul>
           </div>
